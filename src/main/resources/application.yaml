@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: comment-server
+  config:
+    import: optional:configserver:http://localhost:2301
